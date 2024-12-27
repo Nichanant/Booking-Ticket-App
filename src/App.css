@@ -28,8 +28,8 @@ body {
 
 
 #root {
-  /* max-width: 1280px; */
-  margin: 200px auto;
+  max-width: 1280px;
+  margin: 50px auto;
   padding: 0;
   text-align: center;
 }
@@ -57,4 +57,16 @@ body {
   background-color: var(--mainColor);
   border-radius: 5px;
   z-index: -5;
+}
+
+.containerListItem{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width:700px){
+  .containerListItem{
+    width: 800px;
+  }
 }

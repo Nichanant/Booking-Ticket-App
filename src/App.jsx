@@ -139,7 +139,9 @@ function App() {
         <Header />
         {!showAddForm && <button className='btnBooking' onClick={() => { setShowAddForm(true) }}>คลิกลงทะเบียน</button>}
         {showAddForm && <FormSubmit setShowAddForm={setShowAddForm} />}
-        <ListItem registerList={registerList} />
+        <div className='containerListItem'>
+          <ListItem registerList={registerList} />
+        </div>
       </ContextHandler.Provider>
     </>
   )

@@ -14,3 +14,10 @@
 .people {
     border-bottom: 2px solid var(--mainColor);
 }
+
+@media screen and (max-width: 700px) {
+    .headList {
+    text-align: start;
+    margin-left: 40px;
+    }
+}
