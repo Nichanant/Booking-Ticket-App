@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import Item from "./Item";
 import "../CSS/ListItem.css";
-import { ContextHandler } from "../context/contextHandler";
+import { ContextHandler } from "../context/ContextHandler";
 
 
 export function ListItem({ registerList, deleteRegister, editRegister }) {

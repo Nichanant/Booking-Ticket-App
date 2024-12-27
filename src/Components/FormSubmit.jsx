@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import '../CSS/Form.css'
-import { ContextHandler } from "../context/contextHandler";
+import { ContextHandler } from "../context/ContextHandler";
 
 export function FormSubmit(props) {
    const ctx = useContext(ContextHandler);
