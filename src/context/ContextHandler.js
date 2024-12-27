@@ -5,3 +5,5 @@ export const ContextHandler = createContext({
     editRegister: (id, editItem)=>{},
     deleteRegister: (id, editItem)=>{}
 });
+
+export default ContextHandler;
