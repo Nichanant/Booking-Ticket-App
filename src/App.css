@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Noto+Sans+Thai:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --mainColor: rgb(255, 122, 224);
+  --LigtColor: rgb(255, 218, 246);
+}
+
+body {
+  background-color: rgb(20, 17, 20);
+}
+
+/*-----FONT------*/
+/* .EngFONT {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ThaiFONT {
+  font-family: "Noto Sans Thai", sans-serif;
+  font-optical-sizing: auto;
+} */
+
+
+#root {
+  /* max-width: 1280px; */
+  margin: 200px auto;
+  padding: 0;
+  text-align: center;
+}
+
+.btnBooking {
+  background-color: black;
+  font-size: 1rem;
+  color: var(--mainColor);
+  border-radius: 10px;
+  font-family: "Noto Sans Thai", sans-serif;
+  border-style: none;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  z-index: -1;
+  width: 8em;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnBooking:hover {
+  height: 100%;
+  width: 50%;
+  color: black;
+  font-weight: 700;
+  background-color: var(--mainColor);
+  border-radius: 5px;
+  z-index: -5;
+}

@@ -1,0 +1,169 @@
+:root {
+    --mainColor: rgb(255, 122, 224);
+    --LigtColor: rgb(255, 218, 246);
+    --middleColor: rgb(252, 84, 213);
+    --height: 55px;
+    --heightBtn: 40px;
+}
+
+.item-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--LigtColor);
+    align-items: center;
+    border-radius: 5px;
+    filter: drop-shadow(1px 5px 5px var(--mainColor));
+    margin-bottom: 10px;
+    overflow: hidden;
+
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 7px;
+    color: black;
+    height: var(--height);
+    width: 700px;
+}
+
+.btnEdit {
+    background-color: var(--mainColor);
+    font-size: 2.5em;
+    font-weight: 600;
+    color: black;
+    border-radius: 5px;
+    font-family: "Noto Sans Thai", sans-serif;
+    border-style: none;
+    padding: 10px;
+    margin-top: 10px;
+    width: 80px;
+    height: var(--heightBtn);
+    transition: all 0.3s ease-in-out;
+}
+
+.btnEdit:hover {
+    color: black;
+    font-weight: 800;
+    background-color: var(--middleColor);
+    border-radius: 5px;
+}
+
+.btnItemX {
+    background-color: black;
+    font-size: 2.5em;
+    color: var(--mainColor);
+    border-radius: 5px;
+    font-family: "Noto Sans Thai", sans-serif;
+    border-style: none;
+    padding: 10px;
+    margin: 10px 8px;
+    width: 50px;
+    height: var(--heightBtn);
+    transition: all 0.3s ease-in-out;
+}
+
+.btnItemX:hover {
+    color: black;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.btnDelete {
+    background-color: black;
+    font-size: 2.5em;
+    color: var(--mainColor);
+    border-radius: 5px;
+    font-family: "Noto Sans Thai", sans-serif;
+    border-style: none;
+    padding: 10px;
+    margin: 10px 8px;
+    height: var(--heightBtn);
+    transition: all 0.3s ease-in-out;
+    opacity: 0.7;
+}
+
+.btnDelete:hover {
+    opacity: 1;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: end;
+}
+
+.number-free {
+    display: flex;
+    align-items: center;
+    background-color: var(--mainColor);
+    padding: 0 5px;
+    height: var(--height);
+    margin-right: 10px;
+}
+
+.number-free .textRank {
+    font-size: 2em;
+}
+
+.number-pay {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0 5px;
+    height: var(--height);
+    margin-right: 10px;
+}
+
+.number-pay .textRank {
+    font-size: 2em;
+}
+
+.number {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 800;
+    font-size: 1.5em;
+    margin-top: -10px;
+}
+
+.name {
+    padding: 0 20px;
+    font-size: 2.2em;
+}
+
+.registerTime {
+    padding: 0 10px;
+    border-left: 3px solid var(--mainColor);
+    text-align: left;
+}
+
+.registerTime p {
+    margin: -2px -7px;
+    font-size: 2em;
+}
+
+.ticket-free {
+    background-color: black;
+    color: var(--mainColor);
+    margin: 0 10px;
+    padding: 3px 9px;
+    border-radius: 30px;
+    font-size: 2.2em;
+}
+
+
+.input-edit {
+    display: flex;
+    justify-content: space-around;
+    height: 25px;
+}
+
+.input-edit input {
+    font-size: 2.2em;
+    width: 120px;
+    margin-right: 10px;
+}
+
+.centerAllList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

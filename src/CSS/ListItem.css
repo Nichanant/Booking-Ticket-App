@@ -1,0 +1,16 @@
+:root {
+    --mainColor: rgb(255, 122, 224);
+    --LigtColor: rgb(255, 218, 246);
+    --middleColor: rgb(252, 84, 213);
+}
+
+.headList {
+    color: var(--mainColor);
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.people {
+    border-bottom: 2px solid var(--mainColor);
+}

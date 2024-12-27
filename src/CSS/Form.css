@@ -1,0 +1,75 @@
+:root {
+    --mainColor: rgb(255, 122, 224);
+    --LigtColor: rgb(255, 218, 246);
+    --middleColor: rgb(252, 84, 213);
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 10px;
+    text-align: start;
+    color: white
+}
+
+.form-container label {
+    font-size: 2em;
+}
+
+
+.input-Add {
+    width: 50%;
+    height: 45px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: var(--LigtColor);
+    font-size: 2em;
+}
+
+.btnSubmit {
+    background-color: var(--mainColor);
+    font-size: 2em;
+    color: black;
+    border-radius: 5px;
+    font-family: "Noto Sans Thai", sans-serif;
+    border-style: none;
+    padding: 10px;
+    margin-top: 10px;
+    width: 30%;
+    transition: all 0.3s ease-in-out;
+}
+
+.btnSubmit:hover {
+    color: black;
+    font-weight: 700;
+    background-color: var(--middleColor);
+    border-radius: 5px;
+}
+
+.btnX {
+    background-color: black;
+    font-size: 2em;
+    color: var(--mainColor);
+    border-radius: 5px;
+    font-family: "Noto Sans Thai", sans-serif;
+    border-style: none;
+    padding: 10px;
+    margin: 10px 8px;
+    width: 8%;
+    transition: all 0.3s ease-in-out;
+}
+
+.btnX:hover {
+    color: black;
+    font-weight: 700;
+    background-color: var(--LigtColor);
+    border-radius: 5px;
+}
+
+.centerAll {
+    position: relative;
+    left: 50%;
+    transform: translateX(-25%);
+}

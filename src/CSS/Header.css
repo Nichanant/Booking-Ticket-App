@@ -1,0 +1,59 @@
+:root {
+    --mainColor: rgb(255, 122, 224);
+    --LigtColor: rgb(255, 218, 246);
+    --middleColor: rgb(252, 84, 213);
+}
+
+
+/* .EngFONT {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ThaiFONT {
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+} */
+
+
+.headContainer {
+    color: var(--mainColor);
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subTopic {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    margin-bottom: -10px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.topic {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-size: 6em;
+    position: relative;
+}
+
+
+.imgTicket{
+    filter: drop-shadow(2px 2px 200px var(--mainColor));
+    width: 45%;
+}
+
+.description{
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: white;
+    width: fit-content;
+}
